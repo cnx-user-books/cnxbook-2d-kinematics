@@ -1,0 +1,1035 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:m="http://www.w3.org/1998/Math/MathML">
+  <title>2.6 Addition of Velocities</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m57722</md:content-id>
+  <md:title>2.6 Addition of Velocities</md:title>
+  <md:abstract><list>
+<item>Apply principles of vector addition to determine relative velocity.</item>
+<item>Explain the significance of the observer in the measurement of velocity.</item>
+</list></md:abstract>
+  <md:uuid>dc3242f9-4305-4bfe-baf0-0fc6bc5ea21f</md:uuid>
+</metadata>
+
+<content>
+<section id="fs-id1629614">
+    <title>Relative Velocity</title>
+    <para id="import-auto-id1970302">If a person rows a boat across a rapidly flowing river and tries to head directly for the other shore, the boat instead moves <emphasis effect="italics"><emphasis effect="italics">diagonally</emphasis></emphasis> relative to the shore, as in <link target-id="import-auto-id1635451"/>. The boat does not move in the direction in which it is pointed. The reason, of course, is that the river carries the boat downstream. Similarly, if a small airplane flies overhead in a strong crosswind, you can sometimes see that the plane is not moving in the direction in which it is pointed, as illustrated in <link target-id="import-auto-id1851600"/>. The plane is moving straight ahead relative to the air, but the movement of the air mass relative to the ground carries it sideways.</para>
+    
+    <figure id="import-auto-id1635451"><media id="import-auto-id1686524" alt="A boat is trying to cross a river. Due to the velocity of river the path traveled by boat is diagonal. The velocity of boat v boat is in positive y direction. The velocity of river v river is in positive x direction. The resultant diagonal velocity v total which makes an angle of theta with the horizontal x axis is towards north east direction.">
+        <image mime-type="image/jpg" src="../../media/Figure_03_05_01a.jpg" width="350"/>
+      </media>
+      
+    <caption>A boat trying to head straight across a river will actually move diagonally relative to the shore as shown. Its total velocity (solid arrow) relative to the shore is the sum of its velocity relative to the river plus the velocity of the river relative to the shore.</caption></figure><figure id="import-auto-id1851600"><media id="import-auto-id1785227" alt="An airplane is trying to fly straight north with velocity v sub p. Due to wind velocity v sub w in south west direction making an angle theta with the horizontal axis, the plane’s total velocity is thirty eight point 0 meters per seconds oriented twenty degrees west of north.">
+        <image mime-type="image/jpg" src="../../media/Figure_03_05_02a.jpg" width="300"/>
+      </media>
+      
+    <caption>An airplane heading straight north is instead carried to the west and slowed down by wind. The plane does not move relative to the ground in the direction it points; rather, it moves in the direction of its total velocity (solid arrow).</caption></figure><para id="import-auto-id1469714">In each of these situations, an object has a <term id="import-auto-id1831655">velocity</term> relative to a medium (such as a river) and that medium has a velocity relative to an observer on solid ground. The velocity of the object <emphasis effect="italics"><emphasis effect="italics">relative to the observer</emphasis></emphasis> is the sum of these velocity vectors, as indicated in <link target-id="import-auto-id1635451"/> and <link target-id="import-auto-id1851600"/>. These situations are only two of many in which it is useful to add velocities. In this module, we first re-examine how to add velocities and then consider certain aspects of what relative velocity means.</para><para id="import-auto-id1667793">How do we add velocities? Velocity is a vector (it has both magnitude and direction); the rules of <term id="import-auto-id1402169">vector addition</term> discussed in <link document="m42127">Vector Addition and Subtraction: Graphical Methods</link> and <link document="m42128">Vector Addition and Subtraction: Analytical Methods</link> apply to the addition of velocities, just as they do for any other vectors. In one-dimensional motion, the addition of velocities is simple—they add like ordinary numbers. For example, if a field hockey player is moving at <m:math><m:semantics><m:mrow><m:mrow><m:mtext>5 m/s</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"5 m/s"} {}</m:annotation></m:semantics></m:math> straight toward the goal and drives the ball in the same direction with a velocity of <m:math><m:semantics><m:mrow><m:mrow><m:mtext>30 m/s</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"30 m/s"} {}</m:annotation></m:semantics></m:math> relative to her body, then the velocity of the ball is <m:math><m:semantics><m:mrow><m:mrow><m:mtext>35 m/s</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"35 m/s"} {}</m:annotation></m:semantics></m:math> relative to the stationary, profusely sweating goalkeeper standing in front of the goal.</para><para id="import-auto-id1821692">In two-dimensional motion, either graphical or analytical techniques can be used to add velocities. We will concentrate on analytical techniques. The following equations give the relationships between the magnitude and direction of velocity (<m:math><m:semantics><m:mrow><m:mrow><m:mi>v</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mi>θ</m:mi></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation></m:semantics></m:math>) and its components (<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{x} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{y} } } {}</m:annotation></m:semantics></m:math>) along the <emphasis effect="italics"><emphasis effect="italics">x</emphasis></emphasis>- and <emphasis effect="italics"><emphasis effect="italics">y</emphasis></emphasis>-axes of an appropriately chosen coordinate system:</para>
+    
+    <equation id="eip-343"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mi>v</m:mi>
+                  </m:mrow><m:mspace width="0.25em"/>
+                  <m:mtext>cos</m:mtext><m:mspace width="0.25em"/>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{x} } =v"cos"θ} {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><equation id="eip-859"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                        </m:mrow>
+                      
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mi>v</m:mi><m:mspace width="0.25em"/>
+                  </m:mrow>
+                  <m:mtext>sin</m:mtext><m:mspace width="0.25em"/>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{y} } =v"sin"θ} {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><equation id="eip-505"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>v</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msubsup>
+                        <m:mi>v</m:mi>
+                        
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        
+                        
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        
+                      </m:msubsup>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:msubsup>
+                        <m:mi>v</m:mi>
+                        
+                          <m:mrow>
+                            <m:mi>y</m:mi>
+                          </m:mrow>
+                        
+                        
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        
+                      </m:msubsup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v= sqrt {v rSub { size 8{x} }  rSup { size 8{2} } +v rSub { size 8{y} }  rSup { size 8{2} } } } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation>
+    
+    <equation id="eip-213"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>θ</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msup>
+                      <m:mtext>tan</m:mtext>
+                      
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      
+                    </m:msup>
+                  </m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                        </m:mrow>
+                      
+                    </m:msub>
+                    <m:mo stretchy="false">/</m:mo>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      
+                    </m:msub>
+                  </m:mrow>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            <m:mo>.</m:mo>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{θ="tan" rSup { size 8{ - 1} }  \( v rSub { size 8{y} } /v rSub { size 8{x} }  \) } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><figure id="import-auto-id1382383"><media id="import-auto-id1809053" alt="The figure shows components of velocity v in horizontal x axis v x and in vertical y axis v y. The angle between the velocity vector v and the horizontal axis is theta.">
+        <image mime-type="image/png" src="../../media/Figure_03_05_03a.jpg" width="250"/>
+      </media>
+      
+           <caption>The velocity, <m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mi>v</m:mi>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v} {}</m:annotation>
+        </m:semantics>
+      </m:math>, of an object traveling at an angle <m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation>
+        </m:semantics>
+      </m:math>  to the horizontal axis is the sum of component vectors <m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow><m:msub>
+                <m:mtext mathvariant="bold">v</m:mtext><m:mi>x</m:mi>
+</m:msub>              
+</m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v} {subx}</m:annotation>
+        </m:semantics>
+      </m:math> and <m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow><m:msub>
+                <m:mtext mathvariant="bold">v</m:mtext><m:mi>y</m:mi>
+</m:msub>              
+</m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v} {suby}</m:annotation>
+        </m:semantics>
+      </m:math>.</caption></figure><para id="import-auto-id1822299">These equations are valid for any vectors and are adapted specifically for velocity. The first two equations are used to find the components of a velocity when its magnitude and direction are known. The last two are used to find the magnitude and direction of velocity when its components are known.</para><example id="fs-id1076781">
+    <title>Adding Velocities: A Boat on a River</title>
+    
+    <figure id="import-auto-id2070798"><media id="import-auto-id1777811" alt="A boat is trying to cross a river. Due to the velocity of the river the path traveled by the boat is diagonal. The velocity of the boat, v boat, is equal to zero point seven five meters per second and is in positive y direction. The velocity of the river, v-river, is equal to one point two meters per second and is in positive x direction. The resultant diagonal velocity v total, which makes an angle of theta with the horizontal x axis, is towards north east direction.">
+        <image mime-type="image/jpg" src="../../media/Figure_03_05_09a.jpg" width="400"/>
+      </media>
+    
+    <caption>A boat attempts to travel straight across a river at a speed 0.75 m/s. The current in the river, however, flows at a speed of 1.20 m/s to the right. What is the total displacement of the boat relative to the shore?</caption></figure><para id="import-auto-id1968601">Refer to <link target-id="import-auto-id2070798"/>, which shows a boat trying to go straight across the river. Let us calculate the magnitude and direction of the boat’s velocity relative to an observer on the shore, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">v</m:mtext><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"tot"} } } {}</m:annotation></m:semantics></m:math>. The velocity of the boat, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">v</m:mtext><m:mrow><m:mtext>boat</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"boat"} } } {}</m:annotation></m:semantics></m:math>, is 0.75 m/s in the <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mi>y</m:mi>
+            </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{y} {}</m:annotation>
+        </m:semantics>
+      </m:math>-direction relative to the river and the velocity of the river, <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">v</m:mtext><m:mrow><m:mtext>river</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"river"} } } {}</m:annotation></m:semantics></m:math>, is 1.20 m/s to the right.</para><para id="import-auto-id1826630"><emphasis>Strategy</emphasis> </para>
+<para id="import-auto-id1826631">We start by choosing a coordinate system with its <m:math><m:semantics><m:mrow><m:mi>x</m:mi></m:mrow></m:semantics></m:math>-axis parallel to the velocity of the river, as shown in <link target-id="import-auto-id2070798"/>. Because the boat is directed straight toward the other shore, its velocity relative to the water is parallel to the <m:math><m:semantics><m:mrow><m:mi>y</m:mi></m:mrow></m:semantics></m:math>-axis and perpendicular to the velocity of the river. Thus, we can add the two velocities by using the equations <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:msubsup><m:mi>v</m:mi><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo stretchy="false">+</m:mo><m:msubsup><m:mi>v</m:mi><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup></m:mrow></m:msqrt></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"tot"} } = sqrt {v rSub { size 8{x} }  rSup { size 8{2} } +v rSub { size 8{y} }  rSup { size 8{2} } } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>tan</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">/</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ="tan" rSup { size 8{ - 1} }  \( v rSub { size 8{y} } /v rSub { size 8{x} }  \) } {}</m:annotation></m:semantics></m:math> directly.</para><para id="import-auto-id1815144"><emphasis>Solution</emphasis></para>
+  <para id="import-auto-id1815145">The magnitude of the total velocity is</para>
+    
+    <equation id="eip-120"><m:math><m:semantics><m:mrow><mml:mrow xmlns:mml="http://www.w3.org/1998/Math/MathML"><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msqrt><m:mrow><m:msubsup><m:mi>v</m:mi><m:mrow><m:mi>x</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup><m:mo stretchy="false">+</m:mo><m:msubsup><m:mi>v</m:mi><m:mrow><m:mi>y</m:mi></m:mrow><m:mrow><m:mn>2</m:mn></m:mrow></m:msubsup></m:mrow></m:msqrt></m:mrow></m:mrow><m:mtext>,</m:mtext></mml:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"tot"} } = sqrt {v rSub { size 8{x} }  rSup { size 8{2} } +v rSub { size 8{y} }  rSup { size 8{2} } } ","} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1846234">where</para>
+    
+    <equation id="eip-845"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mrow>
+                      <m:msub>
+                        <m:mi>v</m:mi>
+                        
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        
+                      </m:msub>
+                      <m:mo stretchy="false">=</m:mo>
+                      <m:msub>
+                        <m:mi>v</m:mi>
+                        
+                          <m:mrow>
+                            <m:mtext>river</m:mtext>
+                          </m:mrow>
+                        
+                      </m:msub>
+                    </m:mrow>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mn>1</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mtext>20 m/s</m:mtext>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{x} } =v rSub { size 8{"river"} } =1 "." "20"" m/s"} {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id1897591">and</para>
+    
+    <equation id="eip-311"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mrow><m:mtext>boat</m:mtext></m:mrow></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>750 m/s.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{y} } =v rSub { size 8{ ital "boat"} } =0 "." "750 m/s."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1974503">Thus,</para>
+    
+    <equation id="eip-869"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    
+                      <m:mrow>
+                        <m:mtext>tot</m:mtext>
+                      </m:mrow>
+                    
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:mo stretchy="false">(</m:mo>
+                      <m:mn>1</m:mn>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>20 m/s</m:mtext>
+                      <m:mrow>
+                        <m:msup>
+                          <m:mo stretchy="false">)</m:mo>
+                          
+                            <m:mrow>
+                              <m:mn>2</m:mn>
+                            </m:mrow>
+                          
+                        </m:msup>
+                        <m:mo stretchy="false">+</m:mo>
+                        <m:mo stretchy="false">(</m:mo>
+                      </m:mrow>
+                      <m:mn>0</m:mn>
+                      <m:mtext>.</m:mtext>
+                      <m:mtext>750 m/s</m:mtext>
+                      <m:msup>
+                        <m:mo stretchy="false">)</m:mo>
+                        
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        
+                      </m:msup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"tot"} } = sqrt { \( 1 "." "20"" m/s" \)  rSup { size 8{2} } + \( 0 "." "750"" m/s" \)  rSup { size 8{2} } } } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id1542395">yielding</para>
+    
+    <equation id="eip-166"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>42 m/s.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"tot"} } =1 "." "42"" m/s."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1938373">The direction of the total velocity <m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mi>θ</m:mi>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{θ} {}</m:annotation>
+        </m:semantics>
+      </m:math> is given by:</para>
+    
+    <equation id="eip-862"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>tan</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">/</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>tan</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mrow><m:mtext>750</m:mtext><m:mo stretchy="false">/</m:mo><m:mn>1</m:mn></m:mrow><m:mtext>.</m:mtext><m:mtext>20</m:mtext><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ="tan" rSup { size 8{ - 1} }  \( v rSub { size 8{y} } /v rSub { size 8{x} }  \) ="tan" rSup { size 8{ - 1} }  \( 0 "." "750"/1 "." "20" \) "."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id2070827">This equation gives</para>
+    
+    <equation id="eip-16"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>32</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0º</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ="32" "." 0º} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1819246"><emphasis>Discussion</emphasis></para>
+<para id="import-auto-id1819247">Both the magnitude <m:math><m:semantics><m:mrow><m:mi>v</m:mi></m:mrow></m:semantics></m:math> and the direction <m:math><m:semantics><m:mrow><m:mi>θ</m:mi></m:mrow></m:semantics></m:math> of the total velocity are consistent with <link target-id="import-auto-id2070798"/>. Note that because the velocity of the river is large compared with the velocity of the boat, it is swept rapidly downstream. This result is evidenced by the small angle (only <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>32.0º</m:mn></m:mrow></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"32.0º"} {}</m:annotation></m:semantics></m:math>) the total velocity has relative to the riverbank.</para></example>
+    <example id="fs-id1088238">
+    <title>Calculating Velocity: Wind Velocity Causes an Airplane to Drift</title>
+    <para id="import-auto-id1456960">Calculate the wind velocity for the situation shown in <link target-id="import-auto-id1546060"/>. The plane is known to be moving at 45.0 m/s due north relative to the air mass, while its velocity relative to the ground (its total velocity) is 38.0 m/s in a direction <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>20</m:mtext><m:mtext>.0º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"20" "." 0 rSup { size 8{o} } } {}</m:annotation></m:semantics></m:math> west of north.</para><figure id="import-auto-id1546060"><media id="import-auto-id1832731" alt="An airplane is trying to fly north with velocity v p equal to forty five meters per second at angle of one hundred and ten degrees but due to wind velocity v w in south west direction making an angle theta with the horizontal axis it reaches a position in north west direction with resultant velocity v total equal to thirty eight meters per second and the direction is twenty degrees west of north.">
+        <image mime-type="image/jpg" src="../../media/Figure_03_05_04a.jpg" width="325"/>
+      </media>
+      
+    <caption>An airplane is known to be heading north at 45.0 m/s, though its velocity relative to the ground is 38.0 m/s at an angle  west of north. What is the speed and direction of the wind?</caption></figure><para id="import-auto-id2110627"><emphasis>Strategy</emphasis></para>
+ <para id="import-auto-id2116368">In this problem, somewhat different from the previous example, we know the total velocity 
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">v</m:mtext><m:mtext>tot</m:mtext></m:msub></m:mrow></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{ bold "tot"} } } {}</m:annotation></m:semantics></m:math> and that it is the sum of two other velocities, 
+
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">v</m:mtext><m:mrow><m:mtext>w</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{w} } } {}</m:annotation></m:semantics></m:math> (the wind) and 
+
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">v</m:mtext><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{p} } } {}</m:annotation></m:semantics></m:math> (the plane relative to the air mass). The quantity 
+
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">v</m:mtext><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{p} } } {}</m:annotation></m:semantics></m:math> is known, and we are asked to find 
+
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">v</m:mtext><m:mrow><m:mtext>w</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{w} } } {}</m:annotation></m:semantics></m:math>. None of the velocities are perpendicular, but it is possible to find their components along a common set of perpendicular axes. If we can find the components of 
+
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">v</m:mtext><m:mrow><m:mtext>w</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{w} } } {}</m:annotation></m:semantics></m:math>, then we can combine them to solve for its magnitude and direction. As shown in <link target-id="import-auto-id1546060"/>, we choose a coordinate system with its <emphasis effect="italics">x</emphasis>-axis due east and its <emphasis effect="italics">y</emphasis>-axis due north (parallel to 
+
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">v</m:mtext><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{p} } } {}</m:annotation></m:semantics></m:math>). (You may wish to look back at the discussion of the addition of vectors using perpendicular components in <link document="m42128">Vector Addition and Subtraction: Analytical Methods</link>.)</para><para id="import-auto-id1438028"><emphasis>Solution</emphasis></para>
+<para id="import-auto-id2116367">Because 
+
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">v</m:mtext><m:mrow><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{ bold "tot"} } } {}</m:annotation></m:semantics></m:math> is the vector sum of the 
+
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">v</m:mtext><m:mrow><m:mtext>w</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and 
+
+<m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">v</m:mtext><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>, its <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-components are the sums of the <emphasis effect="italics">x</emphasis>- and <emphasis effect="italics">y</emphasis>-components of the wind and plane velocities. Note that the plane only has vertical component of velocity so 
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>p</m:mn><m:mi>x</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mn>0</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math> and 
+
+<m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mn>p</m:mn><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub></m:mrow></m:mrow><m:mrow/></m:mrow></m:semantics></m:math>. That is,</para><equation id="eip-190"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mtext>tot</m:mtext>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    
+                      <m:mrow>
+<m:mtext>w</m:mtext>
+                        <m:mi fontstyle="italic">x</m:mi>
+                      </m:mrow>
+                    
+                  </m:msub>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"tot"x} } =v rSub { size 8{wx} } } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id1904028">and</para>
+    
+    <equation id="eip-690"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mrow><m:mtext>tot</m:mtext><m:mi>y</m:mi></m:mrow></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>w</m:mtext><m:mi fontstyle="italic">y</m:mi></m:mrow></m:msub><m:mo stretchy="false">+</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>p</m:mtext></m:mrow></m:msub></m:mrow></m:mrow></m:mrow><m:mtext>.</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"tot"y} } =v rSub { size 8{wx} } +v rSub { size 8{p} } "."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1915170">We can use the first of these two equations to find <m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:msub>
+                  <m:mi>v</m:mi>
+                  
+                    <m:mrow>
+                      
+                        <m:mrow>
+                          <m:mtext>w</m:mtext><m:mi>x</m:mi>
+                        </m:mrow>
+                    
+                    </m:mrow>
+                  
+                </m:msub>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{ ital "wx"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math>:</para><equation id="eip-615"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow>
+<m:msub>
+<m:mi>v</m:mi>
+<m:mrow><m:mtext>w</m:mtext><m:mi>y</m:mi></m:mrow>
+</m:msub><m:mo stretchy="false">=</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mrow><m:mtext>tot</m:mtext><m:mi>x</m:mi></m:mrow></m:mrow></m:msub></m:mrow><m:mo stretchy="false">=</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub></m:mrow><m:mtext>cos 110º</m:mtext></m:mrow></m:mrow><m:mtext>.</m:mtext></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{wx} } =v rSub { size 8{"tot"x} } =v rSub { size 8{"tot"} } "cos110" rSup { size 8{o} } "."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1377920">Because <m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      
+                        <m:mrow>
+                        
+                            <m:mrow>
+                              <m:mtext>tot</m:mtext>
+                            </m:mrow>
+                       
+                        </m:mrow>
+                      
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mtext>38</m:mtext>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mrow>
+                    <m:mn>0 m</m:mn>
+                    <m:mo stretchy="false">/</m:mo>
+                    <m:mtext>s</m:mtext>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{ ital "tot"} } ="38" "." 0m/s} {}</m:annotation>
+        </m:semantics>
+      </m:math>
+and
+ <m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+               
+                  <m:mtext>cos 110º</m:mtext>
+                  <m:mo>=</m:mo>
+           <m:mo>–</m:mo>
+<m:mn>0.342</m:mn>
+              </m:mrow>
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{"cos""110º""=""-""0.342"} {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+     we have</para><equation id="eip-112"><m:math>
+	<m:msub><m:mi>v</m:mi><m:mrow><m:mtext>w</m:mtext><m:mi>y</m:mi></m:mrow></m:msub>
+<m:mo stretchy="false">=</m:mo>
+<m:mo stretchy="false">(</m:mo>
+<m:mtext>38.0 m/s</m:mtext><m:mo stretchy="false">)</m:mo>
+<m:mo stretchy="false">(</m:mo><m:mtext>–0.342</m:mtext><m:mo stretchy="false">)</m:mo>
+<m:mo stretchy="false">=</m:mo>
+<m:mtext>–13 m/s.</m:mtext></m:math></equation><para id="import-auto-id1458785">The minus sign indicates motion west which is consistent with the diagram.</para>
+    <para id="import-auto-id1608146">Now, to find <m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:msub>
+                  <m:mi>v</m:mi>
+                  
+                    <m:mrow>
+<m:mtext>w</m:mtext>
+                      <m:mstyle fontstyle="italic">
+                        <m:mrow>
+                          <m:mtext>y</m:mtext>
+                        </m:mrow>
+                      </m:mstyle>
+                    </m:mrow>
+                  
+                </m:msub>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{ ital "wy"} } } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+     we note that</para><equation id="eip-142"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:msub>
+                    <m:mi>v</m:mi>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:mtext>tot</m:mtext>
+                          <m:mi>y</m:mi>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                  </m:msub>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      
+                        <m:mrow>
+<m:mtext>w</m:mtext>
+                          <m:mi fontstyle="italic">y</m:mi>
+                        </m:mrow>
+                      
+                    </m:msub>
+                    <m:mo stretchy="false">+</m:mo>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      
+                        <m:mrow>
+                          <m:mtext>p</m:mtext>
+                        </m:mrow>
+                      
+                    </m:msub>
+                  </m:mrow>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"tot"y} } =v rSub { size 8{wx} } +v rSub { size 8{p} } } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id1846608">Here <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mrow><m:mtext>tot</m:mtext><m:mi>y</m:mi></m:mrow></m:mrow></m:msub><m:mo stretchy="false">=</m:mo>
+
+</m:mrow>
+<m:msub><m:mi>v</m:mi><m:mrow><m:mtext>tot</m:mtext></m:mrow></m:msub></m:mrow><m:mtext>sin 110º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{"tot"y} } =v rSub { size 8{"tot"} }  = v rSub { size 8{"tot"} }  "sin 110º"} {}</m:annotation></m:semantics></m:math>; thus,</para><equation id="eip-206"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>w</m:mtext><m:mi fontstyle="italic">y</m:mi></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mo stretchy="false">(</m:mo></m:mrow><m:mtext>38</m:mtext><m:mtext>.</m:mtext><m:mn>0 m/s</m:mn><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">(</m:mo><m:mn>0</m:mn><m:mtext>.</m:mtext><m:mtext>940</m:mtext><m:mrow><m:mo stretchy="false">)</m:mo><m:mo stretchy="false">−</m:mo><m:mtext>45</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0 m/s</m:mn><m:mrow><m:mo stretchy="false">=</m:mo><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>9</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mtext>29 m/s.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{wy} } = \( "38" "." 0" m/s" \)  \( 0 "." "940" \)  - "45" "." 0" m/s"= - 9 "." "29"" m/s."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1923978">This minus sign indicates motion south which is consistent with the diagram.</para>
+    <para id="import-auto-id1915356">Now that the perpendicular components of the wind velocity <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>w</m:mtext><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{wx} } } {}</m:annotation></m:semantics></m:math> and <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>w</m:mtext><m:mi>y</m:mi></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{wy} } } {}</m:annotation></m:semantics></m:math> are known, we can find the magnitude and direction of <m:math><m:semantics><m:mrow><m:mrow><m:msub><m:mtext mathvariant="bold">v</m:mtext><m:mrow><m:mtext>w</m:mtext></m:mrow></m:msub></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{w} } } {}</m:annotation></m:semantics></m:math>. First, the magnitude is</para><equation id="eip-128"><m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+              <m:mtable columnalign="left">
+                <m:mtr><m:mtd>  <m:msub>
+                            <m:mi>v</m:mi>
+                            
+                              <m:mrow>
+                               <m:mtext>w</m:mtext>
+                              </m:mrow>
+                            
+                          </m:msub></m:mtd>
+<m:mtd>                          <m:mo stretchy="false">=</m:mo></m:mtd><m:mtd>
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                        
+
+                          <m:msqrt>
+                            <m:mrow>
+                              <m:msubsup>
+                                <m:mi>v</m:mi>
+                                
+                                  <m:mrow>
+<m:mtext>w</m:mtext>
+                                    <m:mi fontstyle="italic">x</m:mi>
+                                  </m:mrow>
+                                
+                                
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                
+                              </m:msubsup>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:msubsup>
+                                <m:mi>v</m:mi>
+                                
+                                  <m:mrow>
+<m:mtext>w</m:mtext>
+                                    <m:mi fontstyle="italic">y</m:mi>
+                                  </m:mrow>
+                                
+                                
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                
+                              </m:msubsup>
+                            </m:mrow>
+                          </m:msqrt>
+                        </m:mrow>
+                      </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+                <m:mtr><m:mtd/><m:mtd>                      <m:mo stretchy="false">=</m:mo></m:mtd>
+<m:mtd>
+                  <m:mrow>
+                    <m:mrow>
+
+                      <m:msqrt>
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">(</m:mo>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mtext>13</m:mtext>
+                          </m:mrow>
+                          <m:mtext>.</m:mtext>
+                          <m:mn>0 m/s</m:mn>
+                          <m:mrow>
+                            <m:mrow>
+                              <m:msup>
+                                <m:mo stretchy="false">)</m:mo>
+                                
+                                  <m:mrow>
+                                    <m:mn>2</m:mn>
+                                  </m:mrow>
+                                
+                              </m:msup>
+                              <m:mo stretchy="false">+</m:mo>
+                              <m:mo stretchy="false">(</m:mo>
+                            </m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>9</m:mn>
+                          </m:mrow>
+                          <m:mtext>.</m:mtext>
+                          <m:mtext>29 m/s</m:mtext>
+                          <m:msup>
+                            <m:mo stretchy="false">)</m:mo>
+                            
+                              <m:mrow>
+                                <m:mn>2</m:mn>
+                              </m:mrow>
+                            
+                          </m:msup>
+                        </m:mrow>
+                      </m:msqrt>
+                    </m:mrow>
+                  </m:mrow></m:mtd>
+                </m:mtr>
+              </m:mtable>
+            </m:mrow>
+          </m:mrow>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id2157795">so that</para>
+    
+    <equation id="eip-637"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mtext>w</m:mtext></m:mrow></m:msub><m:mo stretchy="false">=</m:mo><m:mtext>16</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>0 m/s</m:mn><m:mtext>.</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{w} } ="16" "." 0" m/s."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1912664">The direction is:</para>
+    
+    <equation id="eip-359"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:mi>θ</m:mi>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msup>
+                      <m:mtext>tan</m:mtext>
+                      
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      
+                    </m:msup>
+                  </m:mrow>
+                  <m:mo stretchy="false">(</m:mo>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      
+                        <m:mrow>
+<m:mtext>w</m:mtext>
+                          <m:mi fontstyle="italic">y</m:mi>
+                        </m:mrow>
+                      
+                    </m:msub>
+                    <m:mo stretchy="false">/</m:mo>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      
+                        <m:mrow>
+<m:mtext>w</m:mtext>
+                          <m:mi fontstyle="italic">x</m:mi>
+                        </m:mrow>
+                      
+                    </m:msub>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">)</m:mo>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:msup>
+                      <m:mtext>tan</m:mtext>
+                      
+                        <m:mrow>
+                          <m:mrow>
+                            <m:mo stretchy="false">−</m:mo>
+                            <m:mn>1</m:mn>
+                          </m:mrow>
+                        </m:mrow>
+                      
+                    </m:msup>
+                  </m:mrow>
+                  <m:mrow>
+                    <m:mo stretchy="false">(</m:mo>
+                    <m:mo stretchy="false">−</m:mo>
+                    <m:mn>9</m:mn>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mrow>
+                    <m:mtext>29</m:mtext>
+                    <m:mo stretchy="false">/</m:mo>
+                    <m:mrow>
+                      <m:mo stretchy="false">−</m:mo>
+                      <m:mtext>13</m:mtext>
+                    </m:mrow>
+                  </m:mrow>
+                  <m:mtext>.</m:mtext>
+                  <m:mn>0</m:mn>
+                  <m:mo stretchy="false">)</m:mo>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{θ="tan" rSup { size 8{ - 1} }  \( v rSub { size 8{wy} } /v rSub { size 8{wx} }  \) ="tan" rSup { size 8{ - 1} }  \(  - 9 "." "29"/ - "13" "." 0 \) } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><para id="import-auto-id1912734">giving</para>
+    
+    <equation id="eip-955"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:mtext>35</m:mtext></m:mrow><m:mtext>.</m:mtext><m:mn>6º</m:mn></m:mrow></m:mrow><m:mtext>.</m:mtext><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ="35" "." 6º"."} {}</m:annotation></m:semantics></m:math></equation><para id="import-auto-id1327206"><emphasis>Discussion</emphasis></para>
+      <para id="import-auto-id1327216">The wind’s speed and direction are consistent with the significant effect the wind has on the total velocity of the plane, as seen in <link target-id="import-auto-id1546060"/>. Because the plane is fighting a strong combination of crosswind and head-wind, it ends up with a total velocity significantly less than its velocity relative to the air mass as well as heading in a different direction.</para>
+    </example>
+    <para id="import-auto-id1819390">Note that in both of the last two examples, we were able to make the mathematics easier by choosing a coordinate system with one axis parallel to one of the velocities. We will repeatedly find that choosing an appropriate coordinate system makes problem solving easier. For example, in projectile motion we always use a coordinate system with one axis parallel to gravity.</para>
+</section>
+<section id="fs-id2070835" class="section-summary">
+    <title>Summary</title>
+    <list id="fs-id1922048"><item id="import-auto-id2094922">Velocities in two dimensions are added using the same analytical vector techniques, which are rewritten as
+    <equation id="import-auto-id2094926"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      
+                        <m:mrow>
+                          <m:mi>x</m:mi>
+                        </m:mrow>
+                      
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mi>v</m:mi><m:mspace width="0.25em"/>
+                  </m:mrow>
+                  <m:mtext>cos</m:mtext><m:mspace width="0.25em"/>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{x} } =v"cos"θ} {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><equation id="import-auto-id2094928"><m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mrow>
+                    <m:msub>
+                      <m:mi>v</m:mi>
+                      
+                        <m:mrow>
+                          <m:mi>y</m:mi>
+                        </m:mrow>
+                      
+                    </m:msub>
+                    <m:mo stretchy="false">=</m:mo>
+                    <m:mi>v</m:mi><m:mspace width="0.25em"/>
+                  </m:mrow>
+                  <m:mtext>sin</m:mtext><m:mspace width="0.25em"/>
+                  <m:mi>θ</m:mi>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v rSub { size 8{y} } =v"sin"θ} {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation><equation id="import-auto-id1887202">
+      <m:math>
+        <m:semantics>
+          <m:mrow>
+            
+              <m:mrow>
+                <m:mrow>
+                  <m:mi>v</m:mi>
+                  <m:mo stretchy="false">=</m:mo>
+                  <m:msqrt>
+                    <m:mrow>
+                      <m:msubsup>
+                        <m:mi>v</m:mi>
+                        
+                          <m:mrow>
+                            <m:mi>x</m:mi>
+                          </m:mrow>
+                        
+                        
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        
+                      </m:msubsup>
+                      <m:mo stretchy="false">+</m:mo>
+                      <m:msubsup>
+                        <m:mi>v</m:mi>
+                        
+                          <m:mrow>
+                            <m:mi>y</m:mi>
+                          </m:mrow>
+                        
+                        
+                          <m:mrow>
+                            <m:mn>2</m:mn>
+                          </m:mrow>
+                        
+                      </m:msubsup>
+                    </m:mrow>
+                  </m:msqrt>
+                </m:mrow>
+              </m:mrow>
+            
+            <m:mrow/>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0"> size 12{v= sqrt {v rSub { size 8{x} }  rSup { size 8{2} } +v rSub { size 8{y} }  rSup { size 8{2} } } } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </equation>
+    <equation id="import-auto-id1938198"><m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mrow><m:mi>θ</m:mi><m:mo stretchy="false">=</m:mo><m:msup><m:mtext>tan</m:mtext><m:mrow><m:mrow><m:mo stretchy="false">−</m:mo><m:mn>1</m:mn></m:mrow></m:mrow></m:msup></m:mrow><m:mo stretchy="false">(</m:mo><m:mrow><m:msub><m:mi>v</m:mi><m:mrow><m:mi>y</m:mi></m:mrow></m:msub><m:mo stretchy="false">/</m:mo><m:msub><m:mi>v</m:mi><m:mrow><m:mi>x</m:mi></m:mrow></m:msub></m:mrow><m:mo stretchy="false">)</m:mo></m:mrow></m:mrow><m:mrow/><m:mo>.</m:mo></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{θ="tan" rSup { size 8{ - 1} }  \( v rSub { size 8{y} } /v rSub { size 8{x} }  \) } {}</m:annotation></m:semantics></m:math></equation>
+</item>    
+<item id="import-auto-id1847577">Relative velocity is the velocity of an object as observed from a particular reference frame, and it varies dramatically with reference frame.</item>
+    <item id="import-auto-id1847580"><emphasis>Relativity</emphasis> is the study of how different observers measure the same phenomenon, particularly when the observers move relative to one another. <emphasis>Classical relativity</emphasis> is limited to situations where speed is less than about 1% of the speed of light (3000 km/s).</item>
+    </list></section>
+<section id="fs-id1894444" class="conceptual-questions" type="conceptual-questions"><title>Conceptual Questions</title><exercise id="fs-id1635072" type="conceptual-questions"><problem id="fs-id1635073">
+<para id="import-auto-id1819275">If someone is riding in the back of a pickup truck and throws a softball straight backward, is it possible for the ball to fall straight down as viewed by a person standing at the side of the road? Under what condition would this occur? How would the motion of the ball appear to the person who threw it?</para>
+</problem></exercise>
+<exercise id="fs-id1912925" type="conceptual-questions"><problem id="fs-id1912926">
+<para id="import-auto-id1819276">The hat of a jogger running at constant velocity falls off the back of his head. Draw a sketch showing the path of the hat in the jogger’s frame of reference. Draw its path as viewed by a stationary observer.</para>
+</problem></exercise>
+</section>
+<section id="fs-id1804537" type="problems-exercises" class="problems-exercises"><title>Problems &amp; Exercises</title>
+
+<exercise id="fs-id1533507" type="problems-exercises">
+<problem id="fs-id1533508">
+    <para id="import-auto-id1982020">Bryan Allen pedaled a human-powered aircraft across the English Channel from the cliffs of Dover to Cap Gris-Nez on June 12, 1979. (a) He flew for 169 min at an average velocity of 3.53 m/s in a direction  <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>45º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"45º"} {}</m:annotation></m:semantics></m:math> south of east. What was his total displacement? (b) Allen encountered a headwind averaging 2.00 m/s almost precisely in the opposite direction of his motion relative to the Earth. What was his average velocity relative to the air? (c) What was his total displacement relative to the air mass?</para></problem>
+<solution id="fs-id1711341">    
+<para id="import-auto-id1982023">(a) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>35</m:mtext><m:mtext>.</m:mtext><m:mn>8 km</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"35" "." 8" km"} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>45º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"45º"} {}</m:annotation></m:semantics></m:math> south of east</para><para id="import-auto-id2183802">(b) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>5</m:mn><m:mtext>.</m:mtext><m:mtext>53 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{5 "." "53 m/s"} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>45º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"45º"} {}</m:annotation></m:semantics></m:math> south of east</para><para id="import-auto-id2046935">(c) <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>56</m:mtext><m:mtext>.</m:mtext><m:mn>1 km</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"56" "." 1" km"} {}</m:annotation></m:semantics></m:math>, <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>45º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"45"º} {}</m:annotation></m:semantics></m:math> south of east</para></solution></exercise>
+<exercise id="eip-342" type="problems-exercises"><problem id="eip-949">
+<para id="import-auto-id2046936">A seagull flies at a velocity of 9.00 m/s straight into the wind. (a) If it takes the bird 20.0 min to travel 6.00 km relative to the Earth, what is the velocity of the wind? (b) If the bird turns around and flies with the wind, how long will he take to return 6.00 km? (c) Discuss how the wind affects the total round-trip time compared to what it would be with no wind.</para></problem>
+
+</exercise><exercise id="fs-id1374901" type="problems-exercises"><problem id="fs-id1374902">
+<para id="import-auto-id2046995">Near the end of a marathon race, the first two runners are separated by a distance of 45.0 m. The front runner has a velocity of 3.50 m/s, and the second a velocity of 4.20 m/s. (a) What is the velocity of the second runner relative to the first? (b) If the front runner is 250 m from the finish line, who will win the race, assuming they run at constant velocity? (c) What distance ahead will the winner be when she crosses the finish line?</para></problem>
+<solution id="fs-id2080060">
+    <para id="import-auto-id1875716">(a) 0.70 m/s faster</para><para id="import-auto-id2010684">(b) Second runner wins</para>
+    <para id="import-auto-id2010686">(c) 4.17 m</para></solution></exercise>
+<exercise id="fs-id1545568" type="problems-exercises"><problem id="fs-id1545569">
+<para id="import-auto-id2010690">A ship sets sail from Rotterdam, The Netherlands, heading due north at 7.00 m/s relative to the water. The local ocean current is 1.50 m/s in a direction <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mtext>40.0º</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"40"°} {}</m:annotation></m:semantics></m:math> north of east. What is the velocity of the ship relative to the Earth?</para></problem>
+</exercise>
+<exercise id="fs-id1845552" type="problems-exercises"><problem id="fs-id1845553">
+<para id="import-auto-id2010694">(a) In what direction would the ship in <link target-id="fs-id1545568"/> have to travel in order to have a velocity straight north relative to the Earth, assuming its speed relative to the water remains <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>7</m:mn><m:mtext>.</m:mtext><m:mtext>00 m/s</m:mtext></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{7 "." "00 m/s"} {}</m:annotation></m:semantics></m:math>? (b) What would its speed be relative to the Earth?</para></problem>
+</exercise>
+<exercise id="fs-id2150516" type="problems-exercises"><problem id="fs-id2150517">
+<para id="import-auto-id2010799">The great astronomer Edwin Hubble discovered that all distant galaxies are receding from our Milky Way Galaxy with velocities proportional to their distances. It appears to an observer on the Earth that we are at the center of an expanding universe. <link target-id="import-auto-id1915192"/> illustrates this for five galaxies lying along a straight line, with the Milky Way Galaxy at the center. Using the data from the figure, calculate the velocities: (a) relative to galaxy 2 and (b) relative to galaxy 5. The results mean that observers on all galaxies will see themselves at the center of the expanding universe, and they would likely be aware of relative velocities, concluding that it is not possible to locate the center of expansion with the given information.</para>
+<para id="import-auto-id2010899">
+<figure id="import-auto-id1915192"><media id="import-auto-id1915193" alt="Five galaxies on a horizontal straight line are shown. The left most galaxy one has distance of three hundred millions of light years and it is moving towards left. The second and third galaxies in the figure have shown no velocities. The velocities of fourth and fifth galaxies are towards right.">
+<image mime-type="image/jpg" src="../../media/Figure_03_05_07.jpg" width="475"/>
+</media>
+
+<caption>Five galaxies on a straight line, showing their distances and velocities relative to the Milky Way (MW) Galaxy. The distances are in millions of light years (Mly), where a light year is the distance light travels in one year. The velocities are nearly proportional to the distances. The sizes of the galaxies are greatly exaggerated; an average galaxy is about 0.1 Mly across.</caption></figure></para>
+     </problem></exercise>
+<exercise id="fs-id1781067" type="problems-exercises"><problem id="fs-id1781068">
+    <para id="import-auto-id1696033">(a) Use the distance and velocity data in <link target-id="import-auto-id1915192"/> to find the rate of expansion as a function of distance.</para>
+<para id="import-auto-id1696034"> (b) If you extrapolate back in time, how long ago would all of the galaxies have been at approximately the same position? The two parts of this problem give you some idea of how the Hubble constant for universal expansion and the time back to the Big Bang are determined, respectively.</para>
+   </problem>
+<solution id="fs-id2101167">
+    <para id="import-auto-id1696044">(a) <m:math>
+        <m:semantics>
+          <m:mrow>
+            <m:mrow>
+            
+              
+                  <m:mrow>
+                    
+                      <m:mrow>
+                        <m:mrow>
+                          <m:msub>
+                            <m:mi>H</m:mi>
+                            
+                              <m:mrow>
+                                <m:mtext>average</m:mtext>
+                              </m:mrow>
+                            
+                          </m:msub>
+                          <m:mo stretchy="false">=</m:mo>
+                          <m:mrow/>
+                        </m:mrow>
+                      </m:mrow>
+                    
+                    <m:mrow/>
+                  </m:mrow>
+               
+                  <m:mrow>
+                    <m:mtext>14</m:mtext>
+                    <m:mtext>.</m:mtext>
+                    <m:mtext>9 </m:mtext>
+                    <m:mfrac>
+                      <m:mtext>km/s</m:mtext>
+                      <m:mtext>Mly</m:mtext>
+                    </m:mfrac>
+                    <m:mrow/>
+                  </m:mrow>
+              
+             
+              <m:mrow/>
+            </m:mrow>
+          </m:mrow>
+          <m:annotation encoding="StarMath 5.0">alignl { stack {
+ size 12{H rSub { size 8{"average"} } ={}}  {} # 
+"14" "." "9 " {  {"km/s"}  over  {"Mly"} }  {} 
+} } {}</m:annotation>
+        </m:semantics>
+      </m:math> 
+    </para><para id="import-auto-id1915665">(b) 20.2 billion years</para>
+</solution>
+</exercise>
+<exercise id="fs-id2080170" type="problems-exercises"><problem id="fs-id2079874">
+ <para id="import-auto-id1915666">An athlete crosses a 25-m-wide river by swimming perpendicular to the water current at a speed of 0.5 m/s relative to the water. He reaches the opposite side at a distance 40 m downstream from his starting point. How fast is the water in the river flowing with respect to the ground? What is the speed of the swimmer with respect to a friend at rest on the ground?</para></problem></exercise>
+<exercise id="fs-id1769191" type="problems-exercises"><problem id="fs-id1769192">
+<para id="import-auto-id1915696">An ice hockey player is moving at 8.00 m/s when he hits the puck toward the goal. The speed of the puck relative to the player is 29.0 m/s. The line between the center of the goal and the player makes a <m:math><m:semantics><m:mrow><m:mrow><m:mrow><m:mn>90.0º</m:mn></m:mrow></m:mrow><m:mrow/></m:mrow><m:annotation encoding="StarMath 5.0"> size 12{"90.0º"} {}</m:annotation></m:semantics></m:math> angle relative to his path as shown in <link target-id="import-auto-id1829266"/>. What angle must the puck’s velocity make relative to the player (in his frame of reference) to hit the center of the goal?</para><para id="import-auto-id1916696">
+<figure id="import-auto-id1829266"><media id="import-auto-id1829267" alt="An ice hockey player is moving across the rink with velocity v player towards north direction. The goal post is in east direction. To hit the goal the hockey player must hit with velocity of puck v puck making an angle theta with the horizontal axis so that its direction is towards south east.">
+<image mime-type="image/wmf" src="../../media/Figure_03_05_08a.jpg" width="450"/>
+</media>
+<caption>An ice hockey player moving across the rink must shoot backward to give the puck a velocity toward the goal.</caption></figure></para>
+</problem></exercise>
+</section>
+ </content>
+<glossary>
+    <definition id="import-auto-id1938465"><term>classical relativity</term> <meaning id="fs-id1919633">the study of relative velocities in situations where speeds are less than about 1% of the speed of light—that is, less than 3000 km/s</meaning></definition>
+    <definition id="import-auto-id1870074"><term>relative velocity</term> <meaning id="fs-id1907659">the velocity of an object as observed from a particular reference frame</meaning></definition>
+    <definition id="import-auto-id2171931"><term>relativity</term> <meaning id="fs-id1545209">the study of how different observers moving relative to each other measure the same phenomenon</meaning></definition>
+
+<definition id="fs-id1902995"><term>velocity</term> <meaning id="fs-id1571347">speed in a given direction</meaning></definition>
+
+<definition id="fs-id1571350"><term>vector addition</term> <meaning id="fs-id1371666">the rules that apply to adding vectors together</meaning></definition>
+
+
+    </glossary>
+</document>
